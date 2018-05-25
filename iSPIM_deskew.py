@@ -23,7 +23,7 @@ chooseDir()
 
 
 class var:
-    save = False
+    save = True
     direc = 'Left2Right'  # or 'Right2Left'
     stepType = 'Z_spacing'  # or 'StageDistance'
     interval = 0.8

@@ -17,7 +17,7 @@ def deskew(img, direc, shiftStep):
     padding = 10 + round(nslice*shiftStep)
 
     print('Padding image')
-    if direc == 1:
+    if direc is 'Left2Right':
         img = np.pad(img, [(0, 0), (0, 0), (0, padding)],
                      mode='constant')
     else:
