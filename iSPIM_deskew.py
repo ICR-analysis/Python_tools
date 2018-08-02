@@ -9,8 +9,6 @@ http://dispim.org/software/imagej_macro
 Define deskew parameters, and choose directory containing skewed images (.tif)
 All images in the directory will be deskewed, and saved to /deskew
 
-
-TODO: add deskewing, then make into deskew function
 """
 
 import os

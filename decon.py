@@ -1,30 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 12 11:28:21 2018
 
-@author: Adam Tyson
-Intel Xeon E5-2650 v3 @ 2.30Ghz 2.29Ghz, 64GB RAM:
-    31 seconds for 1 iteration of 50 x 500 x 500
-    163 seconds for 10 iterations of 50 x 500 x 500
-    139 seconds for 1 iteration of 150 x 1024 x 1024 (Beatrice's cells)
-    1383 seconds for 10 iterations of 150 x 1024 x 1024 (Beatrice's cells)
-    2022 seconds for 1 iteration of 150 x 2048 x 2058 (Barry's spheroids)
+Adam Tyson | adam.tyson@icr.ac.uk | 2018-003-12
 
-HPC - 1 iteration on 150 x 1024 x 1024 (Beatrices cells) max mem approx 20GB,
-        mean memory approx 11GB
-            2 core:
-            4 core: 78s
-            8 core: 76s
-            12 core: 75s
-            16 core: 76s
-
-    - 1 iteration of 150 x 2048 x 2048, max mem 81GB, mean 42GB
-                4 core: reached mem limit
-                8 core: 292s, 336, 320
-                12 core: 304s
-                16 core: 325s
-    - 10 iterations of 150 x 2048 x 2048 - 2875s on 8 cores
-- No multicore improvement, just use the number of cores needed for memory
 """
 
 
